@@ -1,0 +1,15 @@
+.calendar_date {
+    transition: all 0.3s;
+
+    @apply text-[#222222] text-center text-sm not-italic font-semibold leading-[120%] tracking-[-0.14px] rounded-["100%"];
+}
+
+.calendar_container {
+    transition: all 0.3s;
+
+    @apply flex w-8 h-8 flex-col justify-center items-center gap-2.5 p-2 cursor-default ;
+}
+
+.calendar_cell {
+    max-width: fit-content;
+}

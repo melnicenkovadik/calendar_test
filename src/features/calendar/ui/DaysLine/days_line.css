@@ -1,0 +1,24 @@
+.days_line{
+    height: 35px;
+    padding: 4px 0;
+    transition: all 0.3s;
+
+}
+.container {
+    transition: all 0.3s;
+    @apply w-full flex justify-start ;
+}
+
+.day {
+    color:#898E98;
+    text-align: center;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    letter-spacing: -0.12px;
+
+    @apply min-w-['32px'] p-2 cursor-default;
+}
+
